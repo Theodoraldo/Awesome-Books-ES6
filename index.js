@@ -1,8 +1,8 @@
 import Books from './modules/data.js';
 import * as dateTime from './modules/luxon.js';
 
-const ourLocalDate = document.querySelector('.ourLocalDate');
-ourLocalDate.innerHTML = `${dateTime.localDate} ${dateTime.hour}:${dateTime.min}`;
+const localDateTime = document.querySelector('.localDateTime');
+localDateTime.innerHTML = `${dateTime.localDate} ${dateTime.hour}:${dateTime.min}`;
 
 const book = new Books();
 
