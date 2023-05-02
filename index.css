@@ -1,0 +1,159 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(97, 94, 94);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  box-shadow: 0 3px 6px rgb(24, 22, 22, 0.2);
+}
+
+.head {
+  text-align: center;
+  font-size: 25px;
+  margin: 15px;
+}
+
+.all {
+  width: 80%;
+  margin: 15px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.container-nav-menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  align-items: center;
+}
+
+.width-height {
+  width: 100%;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.menu__items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__items li {
+  list-style-type: none;
+  padding: 20px;
+  font-size: 18px;
+  width: 120px;
+  text-align: center;
+}
+
+.contact-info ul li {
+  margin-left: 30px;
+  font-size: 18px;
+}
+
+.menu__items li:hover {
+  background-color: rgb(105, 98, 98);
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btnSubmit {
+  background-color: rgb(7, 83, 7);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+input {
+  font-size: 15px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid rgb(128, 128, 128, 0.5);
+}
+
+input:focus {
+  border: 2px solid rgb(0, 128, 0, 0.5);
+}
+
+.add-form {
+  width: 400px;
+  padding: 20px;
+  display: none;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-info {
+  display: none;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-info p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.removeBook {
+  border: none;
+  color: #fff;
+  background-color: tomato;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.displayRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.localDateTime {
+  float: right;
+  margin-right: 20px;
+  padding-top: 5px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  background-color: rgb(24, 23, 23);
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  gap: 20px;
+}

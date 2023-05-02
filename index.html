@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/1.25.0/luxon.js"></script>
+    <title>Theodore's Bookshop</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container-nav-menu">
+        <div class="logo">Awesome Books</div>
+        <ul class="menu__items">
+          <li class="menu__items-item">List</li>
+          <li class="menu__items-item">Add New</li>
+          <li class="menu__items-item">Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <p class="localDateTime"></p>
+
+    <main class="width-height">
+      <section class="list-list">
+        <h1 class="head">All awesome books</h1>
+        <section class="all"></section>
+      </section>
+      <section class="contact-info">
+        <h2 class="head">Contact Information</h2>
+        <p class="contact-details">
+          Do you have any questions or just want to say "Hello"?
+          <br />
+          You can reach out to us!
+        </p>
+        <ul>
+          <li>Our email: mail@mail.com</li>
+          <li>Our phone number: 0025469875425</li>
+          <li>Our address: First St SE in Washington, DC 20004</li>
+        </ul>
+      </section>
+      <section class="add-form">
+      <form action="" class="formReset">
+        <h2>Add a new</span>book</h2>
+        <input
+          type="text"
+          id="title"
+          placeholder="Title"
+          class="boundry_line"
+          required
+        />
+        <br />
+        <input
+          type="text"
+          id="author"
+          placeholder="Author"
+          class="boundry_line"
+          required
+        />
+        <br />
+        <button type="button" class="btnSubmit">Add</button>
+        <p class="errMessage"></p>
+      </form>
+    </section>
+    </main>
+    <footer>
+      <p>Theodore &copy; 2023</p>
+    </footer>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
