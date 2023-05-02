@@ -137,6 +137,14 @@ input:focus {
   padding: 10px;
 }
 
+.localDateTime {
+  float: right;
+  margin-right: 20px;
+  padding-top: 5px;
+  font-style: italic;
+  font-weight: bolder;
+}
+
 footer {
   position: fixed;
   left: 0;
