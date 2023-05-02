@@ -61,6 +61,11 @@ header {
   text-align: center;
 }
 
+.contact-info ul li {
+  margin-left: 30px;
+  font-size: 18px;
+}
+
 .menu__items li:hover {
   background-color: rgb(105, 98, 98);
   color: #fff;
@@ -115,11 +120,6 @@ input:focus {
 .contact-info p {
   font-size: 18px;
   margin-bottom: 15px;
-}
-
-.contact-info ul li {
-  margin-left: 30px;
-  font-size: 18px;
 }
 
 .removeBook {
